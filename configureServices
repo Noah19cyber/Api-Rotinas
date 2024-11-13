@@ -1,0 +1,39 @@
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllers();
+
+    // Adiciona o Swagger ao serviço
+    services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "API Rotina", Version = "v1" });
+
+        // Adiciona comentários XML aos modelos e controladores
+        var xmlFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ApiRotina.xml");
+        c.IncludeXmlComments(xmlFile);
+    });
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+
+    // Ativa o middleware do Swagger
+    app.UseSwagger();
+
+    // Ativa o middleware do Swagger UI (a interface interativa)
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Rotina v1");
+        c.RoutePrefix = string.Empty; // opcional, se você quiser acessar Swagger na raiz (localhost:5000/)
+    });
+
+    app.UseRouting();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+}
+
+}

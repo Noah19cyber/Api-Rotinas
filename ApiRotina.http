@@ -1,0 +1,6 @@
+@ApiRotina_HostAddress = http://localhost:8080
+
+GET {{ApiRotina_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
