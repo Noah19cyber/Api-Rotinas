@@ -156,3 +156,11 @@ C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ApiRotina.dll
 C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\refint\ApiRotina.dll
 C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ApiRotina.xml
 C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ApiRotina.pdb
+C:\Users\Desktop\ApiRotina\bin\Debug\net9.0\ApiRotina.deps.json
+C:\Users\Desktop\ApiRotina\bin\Debug\net9.0\ApiRotina.runtimeconfig.json
+C:\Users\Desktop\ApiRotina\bin\Debug\net9.0\ApiRotina.dll
+C:\Users\Desktop\ApiRotina\bin\Debug\net9.0\ApiRotina.pdb
+C:\Users\Desktop\ApiRotina\bin\Debug\net9.0\ApiRotina.xml
+C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ApiRotina.sourcelink.json
+C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ApiRotina.genruntimeconfig.cache
+C:\Users\Desktop\ApiRotina\obj\Debug\net9.0\ref\ApiRotina.dll
