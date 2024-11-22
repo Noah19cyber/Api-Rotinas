@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiRotina")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54c06d83d864ed363a6f0d8d237004db5f22dfaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b948c621dddd4cf9a5468cb67429b99552be04c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiRotina")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiRotina")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
